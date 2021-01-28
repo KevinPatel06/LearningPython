@@ -43,24 +43,51 @@
 # elif(num > numTwo) :
 #     print("1 greater than 3")
 #some random assignment translation from java to python
-constant = 10
-print("welcome to wtv")
-#print("please enter a 6 digit number")
-
-user_input = int(input("please enter a 6 digit number"))
-print("generating your number")
-
-lastDigit = int(user_input % constant)
-fifthDigit = int((user_input / constant) % constant)
-fourthDigit = int((user_input / 100) % constant)
-thirdDigit = int((user_input / 1000) % constant)
-secondDigit = int((user_input / 10000) % constant)
-firstDigit = int((user_input / 100000) % constant)
-
-secondDigit = secondDigit % 2
-thirdDigit += 1
-fourthDigit = ((thirdDigit) % 3)
-
-encryptedNumber = ((((((((((lastDigit * constant) + secondDigit) * constant) + thirdDigit) * constant) + fifthDigit) *
-                      constant) + fourthDigit) * constant) + firstDigit)
-print("Your number is: " + str(encryptedNumber))
+# constant = 10
+# print("welcome to wtv")
+# #print("please enter a 6 digit number")
+#
+# user_input = int(input("please enter a 6 digit number"))
+# print("generating your number")
+#
+# lastDigit = int(user_input % constant)
+# fifthDigit = int((user_input / constant) % constant)
+# fourthDigit = int((user_input / 100) % constant)
+# thirdDigit = int((user_input / 1000) % constant)
+# secondDigit = int((user_input / 10000) % constant)
+# firstDigit = int((user_input / 100000) % constant)
+#
+# secondDigit = secondDigit % 2
+# thirdDigit += 1
+# fourthDigit = ((thirdDigit) % 3)
+#
+# encryptedNumber = ((((((((((lastDigit * constant) + secondDigit) * constant) + thirdDigit) * constant) + fifthDigit) *
+#                       constant) + fourthDigit) * constant) + firstDigit)
+# print("Your number is: " + str(encryptedNumber))
+#--------------------------------------dictionaries--key value pairs------------------------------------
+# monthConversions = {
+#     "Jan" : "January",
+#     "Feb" : "February",
+#     "Mar" : "March",
+# }
+# ------------------------------while loop----------------------
+# i = 1
+# while i < 20:
+#         print(i)
+#         i += i
+# ---------------------guessing game------------------
+# word = "dog"
+# user_input = ""
+# print("Guess the 3 letter word: ")
+# while user_input != word:
+#         user_input = input("")
+#         if user_input != word:
+#                 print("wrong answer try again :")
+#         elif user_input == word:
+#                 print("You got the right word")
+# -----------------for loops--------------------
+# for letter in "abcdefg":
+#         print(letter)
+samples = ["bulbasaur", "charmander", "squirtle"]
+for sample in samples:
+        print(sample)
