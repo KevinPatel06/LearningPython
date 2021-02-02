@@ -88,6 +88,39 @@
 # -----------------for loops--------------------
 # for letter in "abcdefg":
 #         print(letter)
-samples = ["bulbasaur", "charmander", "squirtle"]
-for sample in samples:
-        print(sample)
+# samples = ["bulbasaur", "charmander", "squirtle"]
+# for sample in samples:
+#         print(sample)
+# print a right triangle
+# rows = int(input("how many rows would you like the right triangle to be?"))
+# for i in range(1, rows + 1):
+#         for j in range(1, i + 1):
+#                 print('*', end =  '  ')
+#         print()
+# -----------------Practice---------------
+#
+# i = 0
+# while i <= 10:
+#         print(i)
+#         i += 1
+# for num in range(-10, 0):
+#         print(num)
+# 2D lists & loops
+# number_grid = [
+#         [1,2,3],
+#         [4,5,6],
+#         [7,8,9],
+#         [0]
+# ]
+# for row in number_grid:
+#         for column in row:
+#                 print(column)
+# ------------------------try except--------------------
+try:
+
+        number = int(input("Enter a number: "))
+        print(number)
+except ZeroDivisionError:
+        print("divided by zero")
+except ValueError:
+        print("Invalid input")
