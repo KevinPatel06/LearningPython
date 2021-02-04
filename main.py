@@ -116,11 +116,24 @@
 #         for column in row:
 #                 print(column)
 # ------------------------try except--------------------
-try:
-
-        number = int(input("Enter a number: "))
-        print(number)
-except ZeroDivisionError:
-        print("divided by zero")
-except ValueError:
-        print("Invalid input")
+# try:
+#         division = 10 / 0
+#         number = int(input("Enter a number: "))
+#         print(number)
+# except ZeroDivisionError as err:
+#         print(err)
+# except ValueError:
+#         print("Invalid input")
+# ------------Reading files--------------open(file name, w = write r = read a = append r+ = read and write) always close the file after
+# employees_file = open("employees.txt", "r")
+# for employee in employees_file.readlines():
+#         print(employee)
+#
+# employees_file.close()
+# -----------------------------writing files
+# employees_file = open("employees.txt", "a")
+# employees_file.write("\nsample")
+# # for employee in employees_file.readlines():
+# #         employees_file.write("hello " + employee)
+# employees_file.close()
+# --------------------------Modules and pip----------------
