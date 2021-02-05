@@ -137,3 +137,11 @@
 # #         employees_file.write("hello " + employee)
 # employees_file.close()
 # --------------------------Modules and pip----------------
+# import sample_module
+# conversion = sample_module.roll_dice(6)
+# print(conversion)
+# -------------classes------------
+# from Student import Student
+# student = Student("kevin", 21, "male", 3.57, False)
+# print(student.__str__())
+# ----------------Inheritance-------------
