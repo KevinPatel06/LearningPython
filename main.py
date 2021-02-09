@@ -145,3 +145,6 @@
 # student = Student("kevin", 21, "male", 3.57, False)
 # print(student.__str__())
 # ----------------Inheritance-------------
+from TransferStudent import TransferStudent
+newTransferStudent = TransferStudent()
+newTransferStudent.print_country()
